@@ -1,0 +1,31 @@
+<html lang="en" class="fa-events-icons-ready">
+<head>
+
+    <meta charset="UTF-8">
+    <title>WhatsApp - Web HTML Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/1c6f725ec5.css" media="all" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+    <script>
+        let socket = io("http://localhost:8080/", {
+            withCredentials: true ,
+            reconnect: true ,
+            transports: ['websocket'],
+
+        });
+        console.log(socket);
+    </script>
+    
+</head>
+
+<body translate="no">
+<div class="green-background"></div>
+<div class="wrap">
+    
+
+</div>
+</body>
+
+</html>
